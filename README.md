@@ -2,13 +2,13 @@
 
 **Metalsmith your GitHub Pages.**
 
-### Use
+### Built with
 
 * [Metalsmith](http://www.metalsmith.io/) (static site generator)
 * [gulp.js](http://gulpjs.com/) (build system)
 * [Swig](http://paularmstrong.github.io/swig) (template engine)
 
-### Installation
+### Installation & Usage
 
 ```bash
 # Install Yeoman and generator-metalpages
