@@ -8,12 +8,15 @@
 * [gulp.js](http://gulpjs.com/) (build system)
 * [Swig](http://paularmstrong.github.io/swig) (template engine)
 
-### Installation & Usage
+### Installation
 
 ```bash
-# Install Yeoman and generator-metalpages
 $ sudo npm install -g yo generator-metalpages
+```
 
+### Usage
+
+```bash
 # Create a directory for your project
 $ mkdir my-project
 
