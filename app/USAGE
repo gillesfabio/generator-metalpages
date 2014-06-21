@@ -1,5 +1,23 @@
 Description:
-    Creates a new project.
+    Creates a new Metalsmith + gulp.js + Swig project to publish on GitHub Pages.
 
 Example:
     yo metalpages
+
+    This will create:
+      src/                  : Metalsmith source directory
+      src/index.md          : index page
+      src/metadata.json     : metadata to inject in templates
+      assets/css/           : CSS files
+      assets/css/index.css  : default CSS file
+      assets/images/        : image files
+      bower.json            : Bower manifest
+      package.json          : npm manifest
+      README.md             : Project's README
+      templates/layout.html : default Swig layout
+      templates/index.html  : index page Swig template
+      build.js              : Metalsmith build process
+      .editorconfig         : EditorConfig file
+      .gitignore            : Git ignored files
+      gulpfile.js           : gulp tasks
+      Makefile              : project's tasks
