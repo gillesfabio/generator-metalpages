@@ -1,6 +1,6 @@
 {
   "name": "generator-metalpages",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Metalsmith your GitHub Pages.",
   "license": "MIT",
   "homepage": "https://github.com/gillesfabio/generator-metalpages",
