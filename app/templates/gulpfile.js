@@ -22,6 +22,8 @@ gulp.task('assets:images', function() {
   .pipe(gulp.dest('build'));
 });
 
+gulp.task('assets', ['assets:css', 'assets:images']);
+
 gulp.task('lint:json', function() {
   return gulp.src([
       'src/**/*.json'
@@ -38,7 +40,7 @@ gulp.task('build:metalsmith', ['lint:json'], function(done) {
   });
 });
 
-gulp.task('build', ['build:metalsmith', 'assets:css', 'assets:images'], function() {
+gulp.task('build', ['build:metalsmith', 'assets'], function() {
   return gulp.src(['build/**/*'])
     .pipe(gulp.dest('public'));
 });
