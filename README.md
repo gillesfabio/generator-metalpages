@@ -1,16 +1,14 @@
-# generator-metalpages
+## generator-metalpages
 
 **Metalsmith your GitHub Pages.**
 
-Example: http://github.com/gillesfabio/meteor-bookmarks
-
-Use:
+### Use
 
 * [Metalsmith](http://www.metalsmith.io/) (static site generator)
 * [gulp.js](http://gulpjs.com/) (build system)
 * [Swig](http://paularmstrong.github.io/swig) (template engine)
 
-Installation:
+### Installation
 
 ```bash
 # Install Yeoman and generator-metalpages
@@ -35,3 +33,11 @@ $ open http://localhost:3000
 # When you feel it's ready for primetime, publish it on GH Pages
 $ make publish
 ```
+
+### Examples
+
+* [Meteor Bookmarks](http://github.com/gillesfabio/meteor-bookmarks)
+
+### License
+
+[MIT License](http://en.wikipedia.org/wiki/MIT_License).
