@@ -4,6 +4,14 @@
 
 Example: http://github.com/gillesfabio/meteor-bookmarks
 
+Use:
+
+* [Metalsmith](http://www.metalsmith.io/) (static site generator)
+* [gulp.js](http://gulpjs.com/) (build system)
+* [Swig](http://paularmstrong.github.io/swig) (template engine)
+
+Installation:
+
 ```bash
 # Install Yeoman and generator-metalpages
 $ sudo npm install -g yo generator-metalpages
