@@ -23,8 +23,8 @@ describe('base', function() {
     var expected = [
       'src/metadata.json',
       'src/index.md',
-      'static/css/index.css',
-      'static/images',
+      'assets/css/index.css',
+      'assets/images',
       'templates/layout.html',
       'templates/index.html',
       '.editorconfig',

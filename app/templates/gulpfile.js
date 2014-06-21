@@ -10,17 +10,15 @@ var deploy   = require('gulp-gh-pages');
 var swig     = require('swig');
 var build    = require('./build');
 
-gulp.task('css', function() {
-  return gulp.src([
-      'static/css/**/*.css'
-    ])
+gulp.task('assets:css', function() {
+  return gulp.src(['assets/css/**/*.css'])
     .pipe(concat('bundle.css'))
     .pipe(minify())
     .pipe(gulp.dest('build'));
 });
 
-gulp.task('images', function() {
-  return gulp.src(['static/images/**/*'])
+gulp.task('assets:images', function() {
+  return gulp.src(['assets/images/**/*'])
   .pipe(gulp.dest('build'));
 });
 
@@ -40,7 +38,7 @@ gulp.task('build:metalsmith', ['lint:json'], function(done) {
   });
 });
 
-gulp.task('build', ['build:metalsmith', 'css', 'images'], function() {
+gulp.task('build', ['build:metalsmith', 'assets:css', 'assets:images'], function() {
   return gulp.src(['build/**/*'])
     .pipe(gulp.dest('public'));
 });
@@ -62,7 +60,7 @@ gulp.task('serve', ['watch', 'build'], function() {
 
 gulp.task('watch', function() {
   gulp.watch([
-    'static/**/*',
+    'assets/**/*',
     'src/**/*',
     'templates/**/*'
   ], ['build']);

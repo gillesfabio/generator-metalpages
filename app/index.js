@@ -5,7 +5,7 @@ var yeoman = require('yeoman-generator');
 module.exports = yeoman.generators.Base.extend({
   directories: function() {
     this.directory('src', 'src');
-    this.directory('static', 'static');
+    this.directory('assets', 'assets');
   },
   templates: function() {
     this.template('_bower.json', 'bower.json');
