@@ -28,9 +28,6 @@
     "node": ">=0.10.0",
     "npm": ">=1.3"
   },
-  "scripts": {
-    "test": "mocha --reporter spec"
-  },
   "peerDependencies": {
     "yo": ">=1.0.0"
   },
