@@ -1,6 +1,6 @@
 ## generator-metalpages
 
-**Metalsmith your GitHub Pages.**
+*Metalsmith your GitHub Pages.*
 
 ### Built with
 
