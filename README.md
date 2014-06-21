@@ -4,7 +4,7 @@
 
 Example: http://github.com/gillesfabio/meteor-bookmarks
 
-```
+```bash
 # Install Yeoman and generator-metalpages
 $ sudo npm install -g yo generator-metalpages
 
