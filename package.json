@@ -5,7 +5,6 @@
   "license": "MIT",
   "homepage": "https://github.com/gillesfabio/generator-metalpages",
   "bugs": "https://github.com/gillesfabio/generator-metalpages/issues",
-  "private": true,
   "author": {
     "name": "Gilles Fabio",
     "email": "gilles@gillesfabio.com",
